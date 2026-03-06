@@ -30,6 +30,10 @@ Learn how to execute a Python script.
 The challenge provides a Python script (`great_snakes.py`).  
 Executing the script with the Python interpreter prints the flag to the terminal.
 
+The original file provided by CryptoHack was named
+`great_snakes_35381fca29d68d8f3f25c9fa0a9026fb.py`.
+It has been renamed here to `great_snakes.py` for clarity.
+
 **Command used:**
 
 ```

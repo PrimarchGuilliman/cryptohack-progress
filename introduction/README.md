@@ -26,7 +26,7 @@ This keeps the repository organized:
 **Goal:**  
 Learn how to execute a Python script.
 
-*Method:  
+**Method:**  
 The challenge provides a Python file. Running the script with the Python interpreter executes the code and prints the flag.
 
 **Command used:**

@@ -27,7 +27,8 @@ This keeps the repository organized:
 Learn how to execute a Python script.
 
 **Method:**  
-The challenge provides a Python file. Running the script with the Python interpreter executes the code and prints the flag.
+The challenge provides a Python script (`great_snakes.py`).  
+Executing the script with the Python interpreter prints the flag to the terminal.
 
 **Command used:**
 

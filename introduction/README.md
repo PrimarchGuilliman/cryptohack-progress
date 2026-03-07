@@ -51,3 +51,38 @@ print("crypto{z3n_0f_pyth0n}")
 ```
 crypto{z3n_0f_pyth0n}
 ```
+
+---
+
+## ASCII
+
+**Goal:**  
+Convert a list of integers into their corresponding ASCII characters.
+
+**Method:**  
+The challenge provides a list of integers.  
+Each integer represents an ASCII character.
+
+Using the Python function `chr()`, each number can be converted to the corresponding character.  
+The characters are then concatenated to reconstruct the full string.
+
+**Code:**
+
+```python
+a = ""
+
+for x in [99, 114, 121, 112, 116, 111, 123, 65, 83, 67, 73, 73, 95, 112, 114, 49, 110, 116, 52, 98, 108, 51, 125]:
+    a = a + chr(x)
+
+print(a)
+
+```
+**Flag:**
+
+```
+
+crypto{ASCII_pr1nt4bl3}
+
+```
+
+---

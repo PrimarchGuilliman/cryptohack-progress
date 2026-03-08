@@ -86,3 +86,26 @@ crypto{ASCII_pr1nt4bl3}
 ```
 
 ---
+
+## Hex
+
+**Goal:**  
+Decode a hexadecimal string into its original ASCII text.
+
+**Method:**  
+The challenge provides a string encoded in hexadecimal.  
+Each pair of hexadecimal characters represents one byte.
+
+Python provides the function `bytes.fromhex()` which converts a hexadecimal string into the corresponding bytes.
+
+**Code:**
+
+```python
+print(bytes.fromhex("63727970746f7b596f755f77696c6c5f62655f776f726b696e675f776974685f6865785f737472696e67735f615f6c6f747d"))
+```
+
+**Flag:**
+
+```
+crypto{You_will_be_working_with_hex_strings_a_lot}
+```

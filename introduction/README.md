@@ -135,3 +135,61 @@ print(base64.b64encode(bytes.fromhex("72bca9b68fc16ac7beeb8f849dca1d8a783e8acf96
 ```
 crypto/Base+64+Encoding+is+Web+Safe/
 ```
+---
+
+## Bytes and Big Integers
+
+**Goal:**  
+Convert a large integer back into the original message.
+
+**Concept:**  
+In cryptography, messages are often represented as integers.  
+A sequence of ASCII bytes can be interpreted as a single large integer.
+
+---
+
+### Method 1 — Convert integer to hex
+
+```python
+hex(n)
+```
+
+Result:
+
+```
+0x63727970746f7b336e633064316e365f346c6c5f3768335f7734795f6430776e7d
+```
+
+Removing `0x` and decoding:
+
+```python
+bytes.fromhex("63727970746f7b336e633064316e365f346c6c5f3768335f7734795f6430776e7d")
+```
+
+---
+
+### Method 2 — Using a cryptography library
+
+Install dependency:
+
+```
+pip install pycryptodome
+```
+
+Solution:
+
+```python
+from Crypto.Util.number import long_to_bytes
+
+n = 11515195063862318899931685488813747395775516287289682636499965282714637259206269
+
+print(long_to_bytes(n))
+```
+
+---
+
+**Flag**
+
+```
+crypto{3nc0d1n6_4ll_7h3_w4y_d0wn}
+```

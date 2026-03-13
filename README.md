@@ -1,2 +1,15 @@
-# cryptohack-progress
-In this repository I will be tracking the problems I've solved, with a quick explanation of the problem, the method I used for solving it, and the flag (solution) to the problem.
+# python-cryptography
+
+This repository documents my personal work in Python through cryptography exercises, mainly based on CryptoHack.
+
+It serves two purposes:
+- to keep track of the exercises I work on and the progress of my learning;
+- to present my solutions, short explanations, and reasoning in a clear and organised way.
+
+The repository includes:
+- solved exercises;
+- brief write-ups of the methods used;
+- Python scripts written in the course of solving the problems;
+- notes written in English.
+
+This work is part of my broader preparation for Master's applications in cryptography and related areas.

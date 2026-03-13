@@ -12,4 +12,4 @@ The repository includes:
 - Python scripts written in the course of solving the problems;
 - notes written in English.
 
-This work is part of my broader preparation for Master's applications in cryptography and related areas.
+This repository was created as part of my Master's application.
